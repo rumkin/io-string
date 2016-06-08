@@ -1,0 +1,37 @@
+{
+  "name": "io-string",
+  "version": "1.0.0",
+  "description": "I/O String object. It stores channel and raw chunk and properly converts to string.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "istanbul": "^0.4.3",
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "cov": "istanbul cover node_modules/mocha/bin/_mocha -- -u exports -R spec test/**.spec.js",
+    "test": "mocha test/**.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rumkin/io-string.git"
+  },
+  "keywords": [
+    "io-string",
+    "io",
+    "string",
+    "str",
+    "stdout",
+    "stderr",
+    "stdio"
+  ],
+  "author": "rumkin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rumkin/io-string/issues"
+  },
+  "homepage": "https://github.com/rumkin/io-string#readme"
+}
